@@ -7,15 +7,14 @@ const projects = [
   {
     id: 1,
     category: 'Dashboards',
-    title: 'Dashboard Comercial — Philozon',
-    description: 'Painel de inteligência comercial com visão de vendas, metas por equipe, acompanhamento de pedidos e indicadores de performance. Construído com Power BI e integrado às bases internas da empresa.',
+    title: 'Dashboard Comercial — Pet Shop',
+    description: 'Painel de inteligência comercial para rede de pet shops com visão de vendas por loja, ticket médio, produtos mais vendidos e metas por equipe. Construído com Power BI e integrado às bases internas da empresa.',
     technologies: ['Power BI', 'SQL', 'DAX'],
     result: 'Gestão comercial com dados em tempo real, eliminando relatórios manuais e acelerando decisões estratégicas',
     metric: { icon: TrendingUp, value: 'Real-time', label: 'Dados ao vivo' },
     color: 'from-cyan-500 to-blue-600',
     preview: 'bg-gradient-to-br from-cyan-500/20 to-blue-600/10',
     chartType: 'bar',
-    link: 'https://app.powerbi.com/reportEmbed?reportId=46a53c38-73b0-4a2d-bbe7-9c432bfeefe5&autoAuth=true&ctid=1b2c5f2a-129c-417f-86b2-833b41b701a1',
     badge: 'Projeto Real',
   },
   {
