@@ -15,6 +15,7 @@ const projects = [
     color: 'from-cyan-500 to-blue-600',
     preview: 'bg-gradient-to-br from-cyan-500/20 to-blue-600/10',
     chartType: 'bar',
+    link: 'https://app.powerbi.com/reportEmbed?reportId=46a53c38-73b0-4a2d-bbe7-9c432bfeefe5&autoAuth=true&ctid=1b2c5f2a-129c-417f-86b2-833b41b701a1',
     badge: 'Projeto Real',
   },
   {
