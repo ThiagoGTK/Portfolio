@@ -55,7 +55,6 @@ export default function Footer() {
                 src="/logo.png"
                 alt="TG Data"
                 className="h-12 w-auto object-contain"
-                style={{ mixBlendMode: 'screen' }}
               />
             </div>
 

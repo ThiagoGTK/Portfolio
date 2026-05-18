@@ -39,7 +39,6 @@ export default function Navbar() {
               src="/logo.png"
               alt="TG Data"
               className="h-10 w-auto object-contain transition-all duration-300"
-              style={{ mixBlendMode: 'screen' }}
             />
           </button>
 
