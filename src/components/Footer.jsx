@@ -1,4 +1,4 @@
-import { TrendingUp, Linkedin, Github, Mail, Heart, ArrowUp, Instagram } from 'lucide-react'
+import { Linkedin, Github, Mail, Heart, ArrowUp, Instagram } from 'lucide-react'
 
 const footerLinks = {
   Serviços: [
@@ -50,13 +50,13 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.4)]">
-                <TrendingUp size={18} className="text-white" />
-              </div>
-              <span className="text-white font-bold text-xl">
-                TG<span className="text-cyan-400"> Data</span>
-              </span>
+            <div className="flex items-center mb-4">
+              <img
+                src="/logo.png"
+                alt="TG Data"
+                className="h-12 w-auto object-contain"
+                style={{ mixBlendMode: 'screen' }}
+              />
             </div>
 
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">

@@ -38,7 +38,8 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="TG Data"
-              className="h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(6,182,212,0.5)] group-hover:drop-shadow-[0_0_16px_rgba(6,182,212,0.8)] transition-all duration-300"
+              className="h-10 w-auto object-contain transition-all duration-300"
+              style={{ mixBlendMode: 'screen' }}
             />
           </button>
 
