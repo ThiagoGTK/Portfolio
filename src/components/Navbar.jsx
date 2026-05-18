@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Menu, X, TrendingUp } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const navLinks = [
   { label: 'Início', href: '#hero' },
@@ -34,13 +34,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <button onClick={() => handleNav('#hero')} className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.5)] group-hover:shadow-[0_0_25px_rgba(6,182,212,0.8)] transition-all duration-300">
-              <TrendingUp size={18} className="text-white" />
-            </div>
-            <span className="text-white font-bold text-lg tracking-tight">
-              TG<span className="text-cyan-400"> Data</span>
-            </span>
+          <button onClick={() => handleNav('#hero')} className="flex items-center group">
+            <img
+              src="/logo.png"
+              alt="TG Data"
+              className="h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(6,182,212,0.5)] group-hover:drop-shadow-[0_0_16px_rgba(6,182,212,0.8)] transition-all duration-300"
+            />
           </button>
 
           {/* Desktop Links */}
